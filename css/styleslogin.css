@@ -11,10 +11,10 @@
 header {
 
     background-color: #EAC926;
-    text-align: left;
 
 
-    img {
+
+    a img {
         margin-top: auto;
         width: 150px;
     }
@@ -55,7 +55,6 @@ header {
     nav ul li {
         margin-bottom: 20px;
         text-align: center;
-
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -144,6 +143,7 @@ main {
         font-size: 16px
     }
 }
+
 
 
 
