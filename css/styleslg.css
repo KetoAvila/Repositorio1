@@ -36,13 +36,15 @@ header {
         font-weight: 500
     }
 
-
     @media (min-width: 320px) and (max-width: 425px) {
         nav {
             display: none;
             margin-top: 5%;
         }
     }
+
+
+
 
     li {
 
@@ -81,6 +83,38 @@ main {
 
     img {
         width: 100%;
+    }
+
+    form {
+        text-align: center;
+        background-color: #EAC926;
+    }
+
+    form input {
+        margin-bottom: 20px;
+        text-align: center;
+        width: 300px;
+        height: 25px;
+        padding: 10px;
+        font-size: 18px;
+        border: 1px solid white;
+        border-radius: 5px;
+        background-color: white;
+
+    }
+
+    div input {
+        color: white;
+        text-align: center;
+        margin-bottom: 50px;
+        width: 200px;
+        height: 30px;
+        padding: 20px;
+        font-size: 18px;
+        border: 1px solid #1259c3;
+        border-radius: 15px;
+        background-color: #1259c3;
+
     }
 
 
@@ -515,7 +549,7 @@ footer {
 
         nav {
 
-            margin-left: 50px;
+            margin-left: 78px;
         }
 
 
